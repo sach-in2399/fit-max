@@ -30,6 +30,8 @@ const handleSearch=async function(){
             )
             setSearch('');
             setExercises(searchedExercises);
+            window.scrollTo({top:2100, left:100, behavior:"smooth"});
+
         }
     };
 const handleKeyPress = (event) => {
